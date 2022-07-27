@@ -22,21 +22,21 @@ else:
 
 q = input("Please select one from the lists \n A) Countries in the world \n B) Continents in the world \n C) States in the US \n")
 
-if q == ("A" or "a"):
+if q in ["A", "a"]:
     country1 = input(" _ _ _ _ _ \n")
-    if country1 == "A" or "a":
+    if country1 in ["A", "a"]:
         print("_ a _ a _")
     else:
         print("Please try again!")
-elif q == ("B" or "b"):
+elif q in ["B", "b"]:
     region1 = input("_ _ _ _ _ _ _ _ \n")
-    if region1 == "A" or "a":
+    if region1 in ["A", "a"]:
         print("A _ _ _ _ _ a _")
     else:
         print("Please try again!")
-elif q == ("C" or "c"):
-    state1 = input("_ _ _ _ _")
-    if state1 == "A" or "a":
+elif q in ["C", "c"]:
+    state1 = input("_ _ _ _ _ \n")
+    if state1 in ["A", "a"]:
         print("_ _ a _ _")
     else:
         print("Please try again!")
