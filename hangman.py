@@ -9,11 +9,9 @@ time.sleep(2)
 print("¯\_( ͡• ‿‿ ͡•)_/¯ ¯\_( ͡• ‿‿ ͡•)_/¯ ¯\_( ͡• ‿‿ ͡•)_/¯ \n")
 time.sleep(3)
 z = input("Are you ready to play game with me? \n")
+print ("you said {}".format(z))
 
-if z == "Yes" or "y" or "ya" or "yep" or "yess":
-    print("Let's go!!! \n")
-    time.sleep(2)
-elif z == "yes":
+if z in ["Yes", "y", "ya", "yep", "yess", "yes"]:
     print("Let's go!!! \n")
     time.sleep(2)
 else:
